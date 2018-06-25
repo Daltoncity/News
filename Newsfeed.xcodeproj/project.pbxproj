@@ -12,6 +12,8 @@
 		DEDEF8C120D91DDA00A00D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDEF8BF20D91DDA00A00D5E /* Main.storyboard */; };
 		DEDEF8C320D91DDA00A00D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDEF8C220D91DDA00A00D5E /* Assets.xcassets */; };
 		DEDEF8C620D91DDA00A00D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDEF8C420D91DDA00A00D5E /* LaunchScreen.storyboard */; };
+		DEDEF8CE20D91F3C00A00D5E /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF8CD20D91F3C00A00D5E /* XMLParser.swift */; };
+		DEDEF8D120D92F5B00A00D5E /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDEF8CF20D92F5B00A00D5E /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DEDEF8C220D91DDA00A00D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEDEF8C520D91DDA00A00D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEDEF8C720D91DDA00A00D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDEF8CD20D91F3C00A00D5E /* XMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
+		DEDEF8CF20D92F5B00A00D5E /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				DEDEF8BB20D91DDA00A00D5E /* AppDelegate.swift */,
 				DEDEF8BD20D91DDA00A00D5E /* ViewController.swift */,
+				DEDEF8CF20D92F5B00A00D5E /* NewsTableViewCell.swift */,
+				DEDEF8CD20D91F3C00A00D5E /* XMLParser.swift */,
 				DEDEF8BF20D91DDA00A00D5E /* Main.storyboard */,
 				DEDEF8C220D91DDA00A00D5E /* Assets.xcassets */,
 				DEDEF8C420D91DDA00A00D5E /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			files = (
 				DEDEF8BE20D91DDA00A00D5E /* ViewController.swift in Sources */,
 				DEDEF8BC20D91DDA00A00D5E /* AppDelegate.swift in Sources */,
+				DEDEF8D120D92F5B00A00D5E /* NewsTableViewCell.swift in Sources */,
+				DEDEF8CE20D91F3C00A00D5E /* XMLParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63K8W296YL;
 				INFOPLIST_FILE = Newsfeed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = David.Newsfeed;
@@ -289,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63K8W296YL;
 				INFOPLIST_FILE = Newsfeed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = David.Newsfeed;
